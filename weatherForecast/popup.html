@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      width: 520px;
+      height: 600px;
+      background-color: #5FCBFA;
+    }
+    #cityName{
+      color: white;
+      height: 40px;
+      width: 120px;
+      font-size: 30px;
+      text-align: center;
+      margin: 5px auto;
+    }
+    p{
+      text-align: center;
+    }
+    #nowTem{
+      color: white;
+      height: 60px;
+      width: 120px;
+      text-align: center;
+      font-size: 40px;
+      margin: 5px auto;
+    }
+    #climate{
+      margin: 0px 60px;
+    }
+    #climate > span{
+      color: white;
+      display: inline-block;
+      width: 85px;
+      height: 30px;
+      margin: 5px 20px;
+      text-align: center;
+    }
+    h2{
+      color: white;
+      position: absolute;
+      left: 20px;
+      font-size: 15px;
+    }
+    table {
+      font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+      font-size: 12px;
+      width: 480px;
+      text-align: left;
+      border-collapse: collapse;
+      border: 1px solid white;
+      margin: 20px;
+      cursor: default;
+    }
+    table th {
+      font-weight: normal;
+      font-size: 14px;
+      color: white;
+      border-bottom: 1px dashed white;
+      padding: 12px 17px;
+      white-space: nowrap;
+    }
+    table td {
+      color: white;
+      padding: 7px 17px;
+      white-space: nowrap;
+    }
+    table tbody tr:hover td {
+      color: white;
+      background: #d0dafd;
+    }
+  </style>
+</head>
+<body>
+<div id="weather">
+  <div id="cityName"></div>
+  <p id="pic"></p>
+  <div id="nowTem"></div>
+  <p><img src="images/sucai.png"></p>
+  <div id="climate">
+    <span id="direction"></span>
+    <span id="humidity"></span>
+    <span id="airpressure"></span>
+  </div>
+  <h2>未来一周天气：</h2>
+  <div id="forecast"></div>
+</div>
+<script src="js/weather.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "天气预报",
+  "version": "1.0",
+  "description": "查看未来一周的天气情况",
+  "browser_action": {
+    "default_icon": {
+      "38": "images/weather.png"
+    },
+    "default_title": "天气预报",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "https://api.shenjian.io/?appid=fca6946c700a6f2e225c3931133b5607?city_name=*"
+  ]
+}

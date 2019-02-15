@@ -17,3 +17,6 @@ function over_btn(e){
 }
 
 document.getElementById('su').onmouseover = over_btn;
+document.getElementById('kw').onkeydown = function () {
+  return false
+}
