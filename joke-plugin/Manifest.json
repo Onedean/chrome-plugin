@@ -1,0 +1,12 @@
+{
+  "name": "恶作剧按钮",
+  "description": "joke button",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://www.baidu.com/"],
+      "js": ["js/cannot_touch.js"]
+    }
+  ]
+}

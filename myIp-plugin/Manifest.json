@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "查看我的IP",
+  "version": "1.0",
+  "description": "查看我的电脑当前的公网IP",
+  "browser_action": {
+    "default_icon": "images/wolf.png",
+    "default_title": "查看我的IP",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "http://pv.sohu.com/cityjson"
+  ]
+}
