@@ -23,7 +23,6 @@ function showWeather(result) {
     console.log(result.forecast7[i].date)
     table += '<tr>';
     table += '<td>'+result.forecast7[i].date+'</td>';
-
     table += '<td><img src="'+result.forecast7[0].night[0].img+'"></td>';
     table += '<td>'+ result.forecast7[i].hourForcast3[6].temprature + '</td>';
     table += '<td>'+ result.forecast7[i].hourForcast3[2].temprature + '</td>';

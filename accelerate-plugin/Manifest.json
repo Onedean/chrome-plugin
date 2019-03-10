@@ -1,0 +1,19 @@
+{
+  "name": "加速按钮",
+  "description": "accelerate button",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/wolf.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ]
+}
